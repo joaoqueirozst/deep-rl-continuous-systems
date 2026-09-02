@@ -1,4 +1,4 @@
-# System control based on DQN and PPO
+# System Control Based on DQN and PPO
 
 Overall, the study conducted in this project was based on the implementation of machine learning techniques — specifically *Deep Reinforcement Learning* (DRL) algorithms — in continuous systems.
 
