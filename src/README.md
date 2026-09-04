@@ -39,3 +39,8 @@ python3 test.py
 The work demonstrated the ability of DRL algorithms to learn control policies for the *Ball and Beam* and *Cart-Pendulum* systems. Both systems exhibited satisfactory performance in simulations, and the results highlighted the importance of a properly structured reward function in guiding the agents' learning.
 
 Future work could involve extending this application to other dynamic systems and investigating new ways to structure reward functions within the environment.
+
+## Supplementary Work
+Another step taken during the research was applying the adopted methodologies to a different simulation environment: **Gazebo**.
+
+For more information on what was done and how, visit: [Simulation in Gazebo](https://github.com/joaoqueirozst/ball-and-beam-system-gz).
