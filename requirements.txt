@@ -1,0 +1,12 @@
+# Reference environment: Python 3.8 (the saved models used Python 3.8.10).
+# Versions recorded in system_info.txt inside all four saved model ZIPs.
+stable-baselines3==2.4.1
+torch==2.4.1
+numpy==1.24.4
+gymnasium==1.0.0
+cloudpickle==3.1.2
+
+# Compatible versions selected for rendering and training plots.
+# Their original versions were not recorded in the saved models.
+pygame==2.6.1
+matplotlib==3.7.5
