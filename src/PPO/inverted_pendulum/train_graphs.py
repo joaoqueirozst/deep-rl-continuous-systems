@@ -107,24 +107,3 @@ plt.tight_layout()
 plt.savefig('2.png', dpi=300)
 plt.show()
 print("Gráfico 2 salvo: 2.png")
-
-# # Img 3: Erro de posição vs. Episódio (média + mínimo)
-# if len(eq_errors) >= window:
-#     ma_eq = moving_avg(eq_errors, window)
-#     plt.plot(ep_indices, eq_errors, color='black', linewidth=0.8, alpha=0.4, label='Erro de equilíbrio')
-#     plt.plot(ep_indices[window - 1:], ma_eq, color='black', linewidth=2, label='Média')
-
-# else:
-#     # Plota sem média móvel
-#     plt.plot(ep_indices, eq_errors, color='black', linewidth=1.0, label='Erro de equilíbrio')
- 
-# plt.axhline(y=0.05, color='grey', linewidth=1.0, linestyle='--', label='Tolerância (0.05 m)')
-# plt.yscale('log')
-# plt.xlabel('Episódio')
-# plt.ylabel('Erro médio nos últimos 50 steps (normalizado)') # Indica estabilização real do sistema
-# plt.title('PPO Inverted Pendulum: Erro de equilíbrio vs. Episódio')
-# plt.legend()
-# plt.tight_layout()
-# plt.savefig('3.png', dpi=300)
-# plt.show()
-# print("Gráfico 3 salvo: 3.png")
